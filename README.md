@@ -5,6 +5,8 @@ Otherwise the value will be what is defined in the apphost
 
 ## Connection String (Web App Project)
 
+Here we are trying to override cache1 connection string value and trying to create the cache3 connection string value
+
 ```json
 {
   "Logging": {
