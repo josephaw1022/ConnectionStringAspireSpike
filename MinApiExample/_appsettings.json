@@ -7,7 +7,6 @@
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "cache1": "localhost:6380",
-    "cache3": "localhost:6381"
-  }
+    "cache1": "localhost:6380"
+      }
 }
