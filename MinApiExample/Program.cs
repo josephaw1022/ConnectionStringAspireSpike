@@ -26,11 +26,13 @@ public class Program
             // make the configuration values a dictionary<string, string> and return it.
             var cache1 = configuration.GetConnectionString("cache1");
             var cache2 = configuration.GetConnectionString("cache2");
+            var cache3 = configuration.GetConnectionString("cache3");
 
             return Results.Ok(new
             {
                 cache1,
-                cache2
+                cache2,
+                cache3
             });
         });
 
